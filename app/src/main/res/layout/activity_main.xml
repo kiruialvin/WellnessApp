@@ -104,9 +104,27 @@
             android:fontFamily="sans-serif-condensed-light"
             android:id="@+id/motivation"
 
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:backgroundTint="#41C6FF"
+            android:text="weekly Goals"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/goals"
 
-
-
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:backgroundTint="#41C6FF"
+            android:text="Check Progress"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:id="@+id/progress"
 
             />
 

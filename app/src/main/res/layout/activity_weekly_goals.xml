@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#F80606"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeeklyGoals">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weekly Goals"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#2FFF02"
+        android:fontFamily="times"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_margin="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wg"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Learn a new skill relevant to your career.Exercise for at least 30 minutes, three times this week
+ Spend dedicated time on a creative hobby or project
+ Reach out to a friend you haven't spoken to in a while.Save a specific amount toward a financial goal."
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#41C6FF"
+        android:text="Check your weekly Activity"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        />
+
+</LinearLayout>

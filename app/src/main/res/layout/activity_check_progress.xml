@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="#F80606"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CheckProgress">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Progress"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#2FFF02"
+        android:fontFamily="times"
+
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/cp"
+        android:layout_margin="50dp"
+        android:scaleType="centerCrop"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Checking progress is the systematic monitoring of tasks against established goals to ensure projects stay on schedule, maintain momentum, and allow for adjustments
+.It involves reviewing completed work, identifying obstacles, and aligning current actions with desired outcomes"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-medium"
+
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:backgroundTint="#41C6FF"
+        android:text="Check your Progress"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>

@@ -12,6 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chui_wellnessApp">
         <activity
+            android:name=".CheckProgress"
+            android:exported="false" />
+        <activity
+            android:name=".WeeklyGoals"
+            android:exported="false" />
+        <activity
+            android:name=".Motivation"
+            android:exported="false" />
+        <activity
+            android:name=".Excercise"
+            android:exported="false" />
+        <activity
+            android:name=".Hydration"
+            android:exported="false" />
+        <activity
             android:name=".Meditation"
             android:exported="false" />
         <activity
